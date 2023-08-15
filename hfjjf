@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <h1>Kafe Manzura</h1>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="card">
+<img
+src="data:image/png;base64,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"
+          <div class="front">
+            <h3>Ассаламу алейкум, дорогие, гости кафе "Манзура". Приглашаем вас, посетить наше уютное кафе Манзура, и насладиться изысканными блюдами нашего кафе.Вы можете приходить с семьей,с компанией друзей, на всех хватит место.У нас имеется 3 кабинки.В наших кибинках вы будете себя чувствовать уютно и комфортно и вас никто не будет беспокоить. С радостью будем ждать в нашем кафе "Манзура"!</h3>
+          <h2>Меню</h2>
+<img
+src="https://realkz.com/images_resize/gallery/69374.jpg">
+          </div>
+          <div class="back">
+            <button>Add To Cart</button>
+          </div>
+        </div>
+      </div>
+      
+<h2>Все подробности внизу</h2>
+<h3>Описание</h3>
+<h3>Повседневное Кафе "Манзура". Гостям предлагается простое меню по демократичным ценам. Кафе "Манзура" ежедневно работают сразу 2 зала: летний и зимний зал. Если вы пришли большой компанией, то вы можете не беспокоиться, для компании больше 10 человек, у нас есть беседка и VIP залы</h3>
+<h4>Время Работы: С 12:00 до 00:00 </h4>
+      <a href="https://instagram.com/manzura.kafe?igshid=MmU2YjMzNjRlOQ== target="_blank"
+        >inst:manzura.kafe</a
+      >
+<nav>
+   <ul>
+      <li><a href="#">
+О кафе</a></li>
+     <li><a href="#">Описание</a></li>
+    </ul>
+</nav>
+<input id="email" name="email"
+type="email"
+placeholder="введите@email.com" />
+<input id="url" name="url"
+type="url"
+placeholder="Время брони VIP" />
+<input id="trll" name="tell"
+type="tell"
+placeholder="введите тел.номер" />
+    </div>
+  </body>
+</html>
